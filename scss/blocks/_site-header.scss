@@ -5,3 +5,40 @@
   width: 100%;
   height: 120px;
 }
+.site-header__burger-img {
+  display: none;
+}
+.site-header__burger-oppened {
+  display: none;
+}
+@media only screen and (max-width:$tablet) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    height: 120px;
+
+  }
+  .site-header__burger-img {
+    display: none;
+  }
+  .site-header__burger-oppened {
+    display: none;
+  }
+}
+@media only screen and (max-width:$mobile) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    height: 120px;
+  }
+  .site-header__burger-img {
+    display: block;
+  }
+  .site-header__burger-oppened {
+    display: none;
+  }
+}
